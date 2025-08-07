@@ -20,6 +20,9 @@ body{
     height: 21;
     padding: 1rem;
 }
+h1{
+    font-size: 3rem;
+}
 button{
     background-color: #000;
     color: #fff;
@@ -44,6 +47,7 @@ img:hover{
 .top{
     overflow: hidden;
     border-radius: 16px;
+    width: 12rem;
 }
 
 .top-img, .bottom-img{
