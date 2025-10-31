@@ -35,6 +35,13 @@ section#birthday{
     
     
 }
-.img-gif img{
+.img-gif {
+    background: url('./media/giphy.gif');
     border: 5px solid #fff;
+    height: 400px;
+}
+.img-gif:hover{
+    background-image: url('./media/happy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
