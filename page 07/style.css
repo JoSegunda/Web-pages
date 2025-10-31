@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    border: 1px solid red;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(98, 167, 204);
+}
+
+section#birthday{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+#inicio{
+    padding: 3rem;
+}
+
+.will{
+    border-radius: 100%;
+    border: 10px solid palevioletred;
+    margin: 12px;
+}
+#inicio h3{
+    background-color: palevioletred;
+    border-radius: 12px;
+    width: 7rem;
+    margin: auto;
+    
+    
+}
