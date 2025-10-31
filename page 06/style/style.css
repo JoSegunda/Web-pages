@@ -37,3 +37,17 @@ input{
 input:focus{
     box-shadow: 3px 3px 0px 1px;
 }
+
+/* Button */
+.btn{
+    width: 19.6rem;
+    text-align: center;
+}
+.btn button{
+    width: 100%;
+    padding: .8rem;
+    border: 2px solid #000;
+}
+buttoninput:hover{
+    box-shadow: 3px 3px 0px 1px;
+}
