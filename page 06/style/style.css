@@ -1,0 +1,31 @@
+
+body{
+    height: 100vh;
+    display: flex;
+}
+
+#form{
+    margin: auto;
+}
+
+#main{
+    border: 1px solid red;
+    margin: auto;
+    padding: 2rem;
+    width: 20rem;
+    height: 30rem;
+}
+h1{
+    text-align: center;
+}
+.label{
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    
+}
+input{
+    border: 2px solid #000;
+    outline: 0;
+    padding: .7rem;
+    width: 90%;
+}

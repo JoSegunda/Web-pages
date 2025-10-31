@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>Login Form</title>
-</head>
-<body>
-    <div id="container">
-        <h1>Login</h1>
+  </head>
+  <body>
+    <section id="form">
+      <div id="main">
+        <h1>LOGIN</h1>
 
-        <form action="">
-            <label for="Email">Email</label><br>
-            <input type="email" name="email" id="email">
+        <div class="form">
+          <label for="Email" class="label">EMAIL</label><br />
+          <input type="email" name="email" id="email" /><br />
 
-            <label for="password">Password</label>
-            <input type="password" name="pass" id="pass">
+          <label for="password" class="label">PASSWORD</label><br />
+          <input type="password" name="pass" id="pass" /><br />
+        </div>
+        <div class="btn">
+          <button type="submit">SIGN IN</button>
+        </div>
 
-            <button type="submit">SIGN IN</button>
-        </form>
         <p>OR</p>
         <div id="socials">
-            <a href="#">G</a>
-            <a href="#">F</a>
-            <a href="#">X</a>
-            <p>don'thave an account? <a href="#">Sing up</a></p>
+          <a href="#">G</a>
+          <a href="#">F</a>
+          <a href="#">X</a>
+          <p>don'thave an account? <a href="#">Sing up</a></p>
         </div>
-    </div>
-</body>
+      </div>
+    </section>
+  </body>
 </html>
