@@ -50,9 +50,15 @@ input:focus{
     font-weight: bold;
     background-color: rgb(247, 84, 84);
     color: #fff;
-    transform: translateY(10px);
     transition: .4s;
 }
 button:hover{
-    box-shadow: 3px 3px 0px 1px;
+    box-shadow: 3px 3px 0px 1px #000;
+   transform: translateY(-5px);
+}
+#socials{
+    text-align: center;
+}
+.social_links{
+
 }
