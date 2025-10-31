@@ -2,7 +2,7 @@
 body{
     height: 100vh;
     display: flex;
-    font-family: monospace;
+    font-family: 'Courier New', monospace;
 }
 
 #form{
@@ -20,6 +20,7 @@ body{
 }
 .label{
     font-weight: bold;
+    font-size: 1.2em;
 }
 h1{
     text-align: center;
@@ -74,11 +75,8 @@ span{
     background: #fff;
     padding: 0 10px;
 }
-#links{
-    margin-top: 1.5rem;
-    
-}
 .social-links{
+    display: inline-block;
     text-decoration: none;
     background-color: #fff;
     margin-left: 12px;
@@ -86,17 +84,17 @@ span{
     border: 2px solid #000;
     font-weight: bold;
     padding: 1rem;
-    transition: .4s;
+    transition: .2s;
 }
-.social-links:hover{
+#links a:hover {
     cursor: pointer;
     box-shadow:3px 3px 0px 1px #000;
-    transform: translateY(45px);
+    transform: translateY(-3px);
 }
 
 #links + p{
-    margin-top: 2rem;
-    font-size: 1.2em;
+    margin-top: 1rem;
+    font-size: 1em;
 }
 p > a{
     color: #000;
