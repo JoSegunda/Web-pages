@@ -61,25 +61,33 @@ button:hover{
     flex-direction: column;
     text-align: center;
 }
-div ~ p{
+div#socials > p:first-of-type{
     width: 100%;
     font-weight: bold;
     margin: 2rem 0 2rem;
     border-bottom: 2px solid #000;
     line-height: 0.001em;
 }
-.or span{
+span{
     background: #fff;
     padding: 0 10px;
 }
-
-.social-links{
+#links{
+    margin-top: 1.5rem;
     
+}
+.social-links{
     text-decoration: none;
     background-color: #fff;
+    margin-left: 12px;
     color: #000;
     border: 2px solid #000;
     font-weight: bold;
     padding: 1rem;
+}
 
+#links + p{
+    margin-top: 2rem;
+    font-size: 1.2em;
+    color: rebeccapurple;
 }
