@@ -57,8 +57,29 @@ button:hover{
    transform: translateY(-5px);
 }
 #socials{
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
-.social_links{
+div ~ p{
+    width: 100%;
+    font-weight: bold;
+    margin: 2rem 0 2rem;
+    border-bottom: 2px solid #000;
+    line-height: 0.001em;
+}
+.or span{
+    background: #fff;
+    padding: 0 10px;
+}
+
+.social-links{
+    
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    font-weight: bold;
+    padding: 1rem;
 
 }
