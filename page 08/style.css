@@ -1,0 +1,11 @@
+body{
+    height: 100vh;
+    display: flex;
+}
+section{
+    display: flex;
+    margin: auto;
+}
+#img img{
+    width: 50rem;
+}
