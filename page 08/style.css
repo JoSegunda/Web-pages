@@ -5,8 +5,15 @@ body{
 section{
     display: flex;
     margin: auto;
-    width: 80rem;
+    width: 70rem;
 }
 #img img{
     width: 30rem;
+}
+#content{
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: gray;
 }
