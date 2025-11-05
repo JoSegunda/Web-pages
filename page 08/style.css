@@ -3,13 +3,13 @@
 body{
     height: 100vh;
     display: flex;
+    font-family: 'Poppins';
 }
 section{
     display: flex;
     margin: auto;
     width: 60rem;
-    border-radius: 12px;
-    box-shadow: 2px 1px 3px 1px #151111;
+    border: 1px solid #8a8a8a;
 }
 #img{
     width: 90rem;
@@ -23,18 +23,23 @@ section{
 #content{
     margin-left: 60px;
     margin-right: 5rem;
-    font-family: ;
+  
 }
 p{
-    color: gray;
+    color: #000000;
 }
 button{
     padding: 12px;
     border: none;
     color: #fff;
     background-color: #151111;
-    width: 7rem;
+    width: 9rem;
     border-radius: 12px;
     font-size: large;
     cursor: pointer;
+}
+
+.group{
+    color: #8a8a8a;
+    margin-top: 5rem;
 }
