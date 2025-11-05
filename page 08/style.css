@@ -5,7 +5,8 @@ body{
 section{
     display: flex;
     margin: auto;
+    width: 80rem;
 }
 #img img{
-    width: 50rem;
+    width: 30rem;
 }
