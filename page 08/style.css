@@ -6,14 +6,27 @@ section{
     display: flex;
     margin: auto;
     width: 70rem;
+    border-radius: 12px;
+    box-shadow: 2px 1px 3px 1px #151111;
 }
 #img img{
     width: 30rem;
+    overflow: hidden;
 }
 #content{
     margin-left: 60px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 p{
     color: gray;
+}
+button{
+    padding: 12px;
+    border: none;
+    color: #fff;
+    background-color: #151111;
+    width: 7rem;
+    border-radius: 12px;
+    font-size: large;
+    cursor: pointer;
 }
