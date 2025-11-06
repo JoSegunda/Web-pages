@@ -3,6 +3,7 @@ body{
     display: flex;
     height: 100vh;
     font-family: 'Playfair Display';
+    background-color: beige;
 }
 
 section{
