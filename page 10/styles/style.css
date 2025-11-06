@@ -10,9 +10,30 @@ section{
 .watch-area{
     display: flex;
     flex-direction: row;
-    margin: 5rem;
+    margin: 3rem;
+}
+.content{
+    width: 25rem;
 }
 .watch-img{
+    position: relative;
+    bottom: 90px;
     background: url('../media/watch.png') center / contain no-repeat;
-    height: 50px;
+    height: 500px;
+    width: 400px;
+}
+.list{
+    position: relative;
+    bottom: 15rem;
+    display: flex;
+    margin: 2rem;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 12px;
+    border-radius: 16px;
+  height: 90px;
+}
+.sun{
+    width: 100px;
+    padding: 12px;
 }
