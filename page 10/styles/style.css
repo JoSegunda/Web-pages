@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 body{
     display: flex;
     height: 100vh;
+    font-family: 'Playfair Display';
 }
 
 section{
     margin: auto;
     border: 1px solid black;
+    height: 750px;
+    padding: 15px;
 }
 .watch-area{
     display: flex;
@@ -28,20 +32,21 @@ section{
     display: flex;
     margin: 2rem;
     border: 1px solid black;
-    width: fit-content;
+    width: min-content;
+    text-align: center;
     padding: 12px;
     border-radius: 16px;
-  height: 90px;
 }
 .sun{
     width: 100px;
-    padding: 12px;
+    padding: 5px;
 }
 button{
     border: 0;
     padding: 16px;
     width: 10rem;
     border-radius: 16px;
+    font-weight: 500;
 }
 #explore{
     background: #ffffff;
@@ -52,4 +57,17 @@ button{
     background: black;
     color: #ffffff;
     cursor: pointer;
+}
+#order{
+    background: black;
+    color: #ffffff;
+    transition: .2s;
+}
+#order:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+.sun > p{
+    margin: 0;
+    font-size: small;
 }
