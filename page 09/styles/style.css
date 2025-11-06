@@ -11,4 +11,23 @@ section{
 }
 #content{
     display: flex;
+    padding: 12px;
+}
+#
+
+#img1{
+    height: 15rem;
+    background: url('../media/img1.png') center / contain no-repeat;
+    width: 100%;
+}
+#img2{
+    height: 15rem;
+    background: url('../media/img2.png') center / contain no-repeat;
+    width: 100%;
+}
+#img3{
+    height: 15rem;
+    background: url('../media/img3.png') center /contain no-repeat;
+   
+    width: 100%;
 }
