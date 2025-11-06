@@ -16,9 +16,11 @@ section{
 #content{
     display: flex;
     padding: 12px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .content{
-    margin-left: 2rem;
+    padding: 12px;
 }
 
 #img1{
@@ -37,7 +39,7 @@ section{
 }
 h1{
     color: rgb(68, 59, 59);
-    margin-left: 3rem;
+    margin-left: 3.2rem;
     font-size: 2.5rem;
 }
 h3{
