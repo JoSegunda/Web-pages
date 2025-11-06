@@ -7,3 +7,12 @@ section{
     margin: auto;
     border: 1px solid black;
 }
+.watch-area{
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+}
+.watch-img{
+    background: url('../media/watch.png') center / contain no-repeat;
+    height: 50px;
+}
