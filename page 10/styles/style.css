@@ -24,7 +24,7 @@ section{
 }
 .list{
     position: relative;
-    bottom: 15rem;
+    bottom: 7rem;
     display: flex;
     margin: 2rem;
     border: 1px solid black;
@@ -36,4 +36,10 @@ section{
 .sun{
     width: 100px;
     padding: 12px;
+}
+button{
+    border: 0;
+    padding: 16px;
+    width: 10rem;
+    border-radius: 16px;
 }
