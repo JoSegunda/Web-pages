@@ -33,18 +33,23 @@ section{
     height: 300px;
     width: 13rem;
     border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+#
 .img1{
-    background: url('../media/1.png')center / cover no-repeat;
+    background-image: url('../media/1.png');
+
 }
 .img2{
-    background: url('../media/2.png')center / cover no-repeat;
+    background-image: url('../media/2.png');
 }
 .img3{
-    background: url('../media/3.png')center / cover no-repeat;
+    background-image: url('../media/3.png');
 }
 .img4{
-    background: url('../media/4.png')center / cover no-repeat;
+    background-image: url('../media/4.png');
 }
 .img-content{
     position: relative;
@@ -53,7 +58,7 @@ section{
     height: 6rem;
     
 }
-#contain
+
 h1{
     color: #252525;
     font-weight: 600;
