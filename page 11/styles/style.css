@@ -9,27 +9,33 @@ section{
 #main{
     border: 1px solid red;
     padding: 3rem;
-    width: 50rem;
+    width:min-content;
+
 }
 #content{
+    width: fit-content;
     border: 1px solid red;
     display: flex;
 }
 .description{
+    width: fit-content;
+    padding: 12px;
     border: 1px solid red;
 }
 .img{
     height: 300px;
+    width: 13rem;
+    border-radius: 16px;
 }
 .img1{
-    background: url('../media/1.png');
+    background: url('../media/1.png')center / cover no-repeat;
 }
 .img2{
-    background: url('../media/2.png');
+    background: url('../media/2.png')center / cover no-repeat;
 }
 .img3{
-    background: url('../media/3.png');
+    background: url('../media/3.png')center / cover no-repeat;
 }
 .img4{
-    background: url('../media/4.png');
+    background: url('../media/4.png')center / cover no-repeat;
 }
