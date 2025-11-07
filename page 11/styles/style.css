@@ -48,3 +48,16 @@ section{
     left: .5rem;
     width: 13rem;
 }
+h1{
+    color: #252525;
+    font-weight: 600;
+}
+h3{
+    color: #8c8b8b;
+}
+h3 + p{
+    font-weight: 300;
+}
+.img-content > h4{
+    font-weight: 400;
+}
