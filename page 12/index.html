@@ -12,40 +12,45 @@
         <h1>Formulário</h1>
         <hr>
         <h2>Venda fácil o seu carro</h2>
-        <p>Descreva as características e marque os opcionais que ele possui</p>
+        <p>Descreva as características e marque os opcionais que ele possui</p> <br>
         <form action="">
             <label for="Título do anúncio">Título do anúncio:<span class="obs">*</span></label>
-            <input type="text" name="title" id="title" placeholder="um título para anunciar o seu carro">
-
+            <input type="text" name="title" id="title" placeholder="um título para anunciar o seu carro" minlength="1" maxlength="30" required>
+            <br>
             <label for="price">Preço: <span class="obs">*</span></label>
-            <input type="text" name="price" id="price" placeholder="defina o preço">
-
+            <input type="number" name="price" id="price" placeholder="defina o preço" required>
+             <br>
             <label for="description">Descrição:<span class="obs">*</span></label>
-            <textarea name="description" id="description" placeholder="Aqui você coloca os detalhes do veículo, por exemplo, ele etem algum arranhão"></textarea>
-
+            <textarea name="description" id="description" cols="40" rows="5" placeholder="Aqui você coloca os detalhes do veículo, por exemplo, ele etem algum arranhão" required></textarea>
+             <br>
             <label for="marca">Marca: <span class="obs">*</span></label>
             <input type="text" name="marca" id="marca" placeholder="digite a marca do veículo">
-
+             <br>
             <label for="modelo">Modelo: <span class="obs">*</span></label>
-            <input type="text" name="modelo" id="modelo" placeholder="digite o modelo do veículo">
-
+            <input type="text" name="modelo" id="modelo" placeholder="digite o modelo do veículo" required>
+             <br>
             <label for="km">kilometragem: <span class="obs">*</span></label>
-            <input type="text" name="km" id="km" placeholder="digite a kilometragem do veículo">
-
+            <input type="number" name="km" id="km" placeholder="digite a kilometragem do veículo" required>
+             <br>
             <label for="date">Data de compra: <span class="obs">*</span></label>
             <input type="date" name="date" id="date">
-            
+             <br>
             <!-- Radios -->
-            <p>Tipo de câmbio: <span class="obs">*</span></p>
-            <input type="radio" name="manual" value="Manual" id="manual">
-            <label for="manual">Manual</label>
-            <input type="radio" name="automatic" value="Automático" id="automatic">
-            <label for="automatic">Automático</label>
+             <div id="radios">
+                <label>Tipo de câmbio: <span class="obs">*</span></label>
+             
+                <label for="manual">Manual <input type="radio" name="manual" value="Manual" id="manual"></label>
+                
+                <label for="automatic">Automático <input type="radio" name="automatic" value="Automático" id="automatic"></label>
+                
+                
+             </div>
+            
 
             <!-- Checkboxes -->
              <div id="check">
                 <div id="check1">
-                    <p>Opcionais: </p>
+                   <label for="opcionais">Opcionais</label>
                     <input type="checkbox" name="airbag" >
                     <label for="airbag">Airbag</label>
 
