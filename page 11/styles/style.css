@@ -18,6 +18,18 @@ section{
 .description{
     border: 1px solid red;
 }
+.img{
+    height: 300px;
+}
 .img1{
-    background: url();
+    background: url('../media/1.png');
+}
+.img2{
+    background: url('../media/2.png');
+}
+.img3{
+    background: url('../media/3.png');
+}
+.img4{
+    background: url('../media/4.png');
 }
