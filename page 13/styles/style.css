@@ -18,3 +18,10 @@
 #nav{
     display: none;
 }
+.img-landing{
+    height: 700px;
+    background-image: url('../media/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
