@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+#header{
+    background-color: #CD2C58;
+    display: flex;
+}
+#logo {
+    width: 100%;
+    text-align: center;
+
+}
+#logo img{
+    width: 20%;
+}
+#nav{
+    display: none;
+}
