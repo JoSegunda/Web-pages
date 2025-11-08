@@ -25,3 +25,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+#intro{
+    position: relative;
+    bottom: 30rem;
+    margin-left: 40px;
+    font-size: 50px;
+    color: #E06B80;
+}
