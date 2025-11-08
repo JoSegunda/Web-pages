@@ -70,6 +70,7 @@
 }
 #about > h1 + p{
     text-align: center;
+    color: #472027;
     font-size: 1rem;
     letter-spacing: .05em;
     word-spacing: .05em;
