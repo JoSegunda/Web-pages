@@ -81,13 +81,15 @@
 /* Products Section */
 #products{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 50px;
     height: max-content;
 
 }
-#products > h1{
+#about-us + h1{
+    text-align: center;
     margin: 16px;
     padding: 16px;
     font-family: 'vindey';
