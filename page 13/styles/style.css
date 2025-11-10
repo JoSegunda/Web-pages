@@ -78,9 +78,8 @@
     font-family: 'Poppins';
     word-wrap: break-word;
 }
-/*  */
+/* Products Section */
 #products{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,5 +126,6 @@
 }
 
 footer{
-    margin-top: 500px;
+    height: 30vh;
+    background-color: #de556e;
 }
