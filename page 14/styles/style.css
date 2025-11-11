@@ -20,7 +20,7 @@ input[type="text"], input[type="password"]{
     display: block;
     padding: 8px;
     margin: 5px;
-    width: 15rem;
+    width: 100%;
     border: 1px solid #a7a2a2;
     background-color: #3e3b3b60;
     outline: 0;
@@ -28,7 +28,7 @@ input[type="text"], input[type="password"]{
 }
 button{
     margin: 5px;
-    width: 96.5%;
+    width: 100%;
     background-color: rgba(82, 82, 246, 0.564);
     color: #fff;
     border-radius: 8px;
@@ -36,6 +36,12 @@ button{
     outline: 0;
     border: 0;
     font-weight: 300;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 form + p{
     color: #fff;
@@ -65,8 +71,11 @@ form +p>span{
 #pword a:hover{
     border-bottom: 1px solid #fff;
 }
-#register a{
-    color: #0095F6;
+.register{
+    color: #708DFF;
+}
+.register:hover{
+    cursor: pointer;
 }
 #options > p{
     margin-top: 3rem;
@@ -81,6 +90,7 @@ form +p>span{
 footer{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 200px;
     gap: 16px;
@@ -92,4 +102,10 @@ footer a{
 }
 footer a:hover{
     border-bottom: 1px solid #a7a2a2;
+}
+
+@media (max-width: 942px) {
+    #img{
+        display: none;
+    }
 }
