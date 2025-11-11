@@ -46,10 +46,18 @@ form +p>span{
     border-bottom: 13px solid #ffffff;
     margin-bottom: 12px;
 }
-#options a{
+#options{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
+}
+#options > p{
+    margin-top: 3rem;
+}
+#options a{
+    margin-top: 12px;
     text-decoration: none;
     color: #fff;
     text-align: center;
