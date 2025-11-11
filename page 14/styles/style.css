@@ -36,7 +36,24 @@ button{
     border: 0;
     font-weight: 300;
 }
-
+form + p{
+    color: #fff;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+form +p>span{
+    border-bottom: 13px solid #ffffff;
+    margin-bottom: 12px;
+}
+#options a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
 
 footer{
     display: flex;
