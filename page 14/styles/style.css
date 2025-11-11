@@ -54,6 +54,20 @@ form +p>span{
     align-items: center;
     color: #fff;
 }
+#fb{
+    display: flex;
+}
+#fb p > a{
+    font-weight: 500;
+    color: #0095F6;
+    margin-left: 3px;
+}
+#pword a:hover{
+    border-bottom: 1px solid #fff;
+}
+#register a{
+    color: #0095F6;
+}
 #options > p{
     margin-top: 3rem;
 }
