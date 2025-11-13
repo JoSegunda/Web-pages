@@ -14,6 +14,12 @@ nav{
 nav > ul{
     display: flex;
 }
-nav > ul > li{
+ul > li{
+    list-style: none;
+    
+}
+li > a{
     text-decoration: none;
+    padding: 12px;
+    color: #5e5e5e;
 }
