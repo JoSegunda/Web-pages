@@ -44,6 +44,14 @@ main{
     justify-content: center;
     border: 1px solid red;
 }
+/* FOcus on aside */
+aside, #main{
+    margin-top: 2rem;
+}
+#busca, #categorias, #tags{
+    border: 1px solid #b4aaaa;
+    padding: 1rem;
+}
 
 /* Footer */
 footer{
