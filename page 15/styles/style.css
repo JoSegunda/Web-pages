@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #cfcdcd;
+}
+nav{
+    display: flex;
+}
+nav > ul{
+    display: flex;
+}
+nav > ul > li{
+    text-decoration: none;
+}
