@@ -36,3 +36,11 @@ nav > ul{
 
 /* Style for main section */
 
+main{
+    display: flex;
+    margin: auto;
+    gap: 5rem;
+    margin-top: 8rem;
+    justify-content: center;
+    border: 1px solid red;
+}
