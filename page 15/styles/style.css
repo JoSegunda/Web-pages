@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
 header{
     display: flex;
     flex-direction: row;
@@ -55,6 +58,9 @@ aside, #main{
 }
 #categorias, #tags{
     margin-top: .8rem;
+}
+aside div > h1{
+    margin-bottom: 15px;
 }
 
 /* Footer */
