@@ -51,6 +51,9 @@ aside, #main{
     border: 1px solid #b4aaaa;
     padding: 1rem;
 }
+#categorias, #tags{
+    margin-top: .8rem;
+}
 
 /* Footer */
 footer{
