@@ -67,6 +67,9 @@ aside div > h1{
     text-decoration: none;
     color: #7f7f7f;
 }
+#categorias li{
+    margin: 10px;
+}
 
 /* Footer */
 footer{
