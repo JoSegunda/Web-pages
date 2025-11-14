@@ -42,7 +42,6 @@ main{
     gap: 5rem;
     margin-top: 8rem;
     justify-content: center;
-    border: 1px solid red;
 }
 /* FOcus on aside */
 aside, #main{
