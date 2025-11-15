@@ -91,6 +91,7 @@ aside div > h1{
     color: #7f7f7f;
     transition: .5s;
 }
+
 #categorias a:hover{
     color: #4c67d1;
 }
