@@ -47,6 +47,7 @@ main{
     gap: 5rem;
     margin-top: 2rem;
     justify-content: center;
+    flex-wrap: wrap;
     width: min-content;
     padding: 3rem;
     font-family: "Merriweather", sans-serif;
