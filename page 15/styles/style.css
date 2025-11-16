@@ -73,6 +73,7 @@ aside p{
 }
 input{
     width: 80%;
+    outline: 0;
 }
 #busca, #categorias, #tags{
     width: 300px;
