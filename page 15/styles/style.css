@@ -71,6 +71,9 @@ aside, #main{
 aside p{
     color: #ffffff;
 }
+input{
+    
+}
 #busca, #categorias, #tags{
     width: 300px;
     border: 1px solid #b4aaaa;
