@@ -76,6 +76,7 @@ input{
     outline: 0;
     padding: 3px;
 }
+
 #busca, #categorias, #tags{
     width: 300px;
     border: 1px solid #b4aaaa;
