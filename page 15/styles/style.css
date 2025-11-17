@@ -61,7 +61,7 @@ main p{
     text-align: justify;
 }
 #main{
-    width: min-content;
+    width: 40%;
 }
 #bio-img{
     background-image: url('../media/bio.webp');
@@ -69,7 +69,6 @@ main p{
     background-position: center;
     background-size: cover;
     height: 500px;
-    width: 50rem;
 
 }
 p{
