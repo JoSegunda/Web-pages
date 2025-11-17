@@ -63,6 +63,15 @@ main p{
 #main{
     width: min-content;
 }
+#bio-img{
+    background-image: url('../media/bio.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 50rem;
+
+}
 
 
 /* FOcus on aside */
