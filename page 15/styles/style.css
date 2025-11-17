@@ -72,6 +72,9 @@ main p{
     width: 50rem;
 
 }
+p{
+    word-wrap: break-word;
+}
 
 
 /* FOcus on aside */
