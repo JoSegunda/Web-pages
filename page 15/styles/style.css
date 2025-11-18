@@ -134,6 +134,7 @@ aside div > h1{
 #categorias a:hover{
     color: #4c67d1;
 }
+
 #tgs{
     display:flex;
     flex-wrap: wrap;
