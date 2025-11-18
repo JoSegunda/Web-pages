@@ -130,6 +130,7 @@ aside div > h1{
     color: #717171;
     transition: .5s;
 }
+
 #categorias a:hover{
     color: #4c67d1;
 }
