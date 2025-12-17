@@ -5,8 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabuada</title>
 
-    stye
-    
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            background-color: #e9e9e9;
+        }
+        #calcular{
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 12px;
+            display: flex;
+        }
+        #inputs{
+            display: flex;
+        }
+        label{
+            display: block;
+        }
+        input[type="text"]{
+            width: 1rem;
+        }
+    </style>
+
 </head>
 <body>
     <section id="main">
@@ -15,10 +36,10 @@
         <div id="calcular">
             <form action="">
                 <div id="inputs">
-                    <label for="">De
+                    <label for="">De: <br>
                     <input type="number" name="n1" id="value1" required></label>
 
-                    <label for="">Repetições
+                    <label for="">Repetições: <br>
                     <input type="number" name="n2" id="value2" required></label>
                 </div>
                 <button type="submit" id="enviar">Enviar</button>
