@@ -92,6 +92,7 @@
         const value2 = document.getElementById('value2').value
         const enviar = document.getElementById('enviar')
         const number = document.getElementById('number')
+        cons
 
         enviar.addEventListener('click', (e) => {
             e.preventDefault()
@@ -99,6 +100,13 @@
             number.textContent = value1
 
             const p = document.createElement("p")
+
+            for (let i = 1; i <= value2; i++) {
+                
+                p.innerText = `${value1} x ${i} = ${value1 * i}`
+
+
+            }
             
         })
     </script>
