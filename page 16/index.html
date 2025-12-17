@@ -100,9 +100,10 @@
         const content = document.getElementById('content')
         const form = document.getElementById('form')
 
-        enviar.addEventListener('click', (e) => {
+        enviar.addEventListener('click', async (e) => {
             e.preventDefault()
             
+            await new Promise(resolve => setTimeout(resolve, 100));
             content = ""
 
             let n1 = value1.value
