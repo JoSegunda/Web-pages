@@ -74,7 +74,7 @@
         <h1>Cálculo de tabuada</h1>
 
         <div id="calcular">
-            <form action="">
+            <form action="" id="form">
                 <div id="inputs">
                     <label for="">De: <br>
                     <input type="number" name="n1" id="value1" required></label>
@@ -98,6 +98,7 @@
         const enviar = document.getElementById('enviar')
         const number = document.getElementById('number')
         const content = document.getElementById('content')
+        const form = document.getElementById('form')
 
         enviar.addEventListener('click', (e) => {
             e.preventDefault()
@@ -105,6 +106,7 @@
             let n1 = value1.value
             let n2 = value2.value
             number.textContent = n1
+
 
             const p = document.createElement("p")
             console.log("Chega aqui", n2)
