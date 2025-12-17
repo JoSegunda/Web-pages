@@ -60,6 +60,8 @@
             background-color: #fff;
             min-height: 20rem;
             border-radius: 16px;
+            text-align: center;
+            padding: 1rem;
         }
     </style>
 
@@ -81,15 +83,15 @@
             </form>
         </div>
 
-        <h1>Tabuada Do número: <p id="number"></p></h1>
+        <h1>Tabuada Do número: <span id="number"></span></h1>
         <div id="content">
 
         </div>
     </section>
 
     <script>
-        const value1 = document.getElementById('value1').value
-        const value2 = document.getElementById('value2').value
+        const value1 = document.getElementById('value1')
+        const value2 = document.getElementById('value2')
         const enviar = document.getElementById('enviar')
         const number = document.getElementById('number')
         const content = document.getElementById('content')
@@ -97,15 +99,18 @@
         enviar.addEventListener('click', (e) => {
             e.preventDefault()
 
-            number.textContent = value1
+            let n1 = value1.value
+            let n2 = value2.value
+            number.textContent = n1
 
             const p = document.createElement("p")
-
-            for (let i = 1; i <= value2; i++) {
+            console.log("Chega aqui", n2)
+            for (let i = 1; i <= n2; i++) {
                 
-                p.innerText = `${value1} x ${i} = ${value1 * i}`
+                p.innerText = `${n1} x ${i} = ${n1 * i}`
+                console.log(`${n1} x ${i} = ${n1 * i}`)
 
-                content
+                content.appendChild(p)
             }
             
         })
