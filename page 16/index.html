@@ -112,14 +112,11 @@
             number.textContent = n1
 
 
-            const p = document.createElement("p")
             console.log("Chega aqui", n2)
 
             for (let i = 1; i <= n2; i++) {
-                
-                p.innerHTML = `${n1} x ${i} = ${n1 * i}`
 
-                content.appendChild(p)
+                content.innerHTML += `<p>${n1} x ${i} = ${n1 * i}</p>`
             }
 
             form.reset()
