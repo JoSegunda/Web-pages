@@ -27,6 +27,9 @@
             padding-bottom: 1rem;
             gap: 4rem;
         }
+        #main{
+            margin: auto;
+        }
         button{
             width: inherit;
             padding: 12px;
@@ -36,9 +39,10 @@
             border: 0;
             border-radius: 12px;
             cursor: pointer;
+            transition: .3s ease-in;
         }
         button:hover{
-            opacity: .8;
+            opacity: .95;
         }
         label{
             display: block;
@@ -51,6 +55,11 @@
             border: 0;
             background-color: #d7d4d4;
             outline: 0;
+        }
+        #content{
+            background-color: #fff;
+            min-height: 30rem;
+            
         }
     </style>
 
@@ -72,7 +81,7 @@
             </form>
         </div>
 
-        <h1>Tabuada so número <p id="number"></p></h1>
+        <h1>Tabuada Do número <p id="number"></p></h1>
         <div id="content">
 
         </div>
