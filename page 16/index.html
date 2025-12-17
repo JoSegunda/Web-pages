@@ -19,12 +19,17 @@
         }
         #inputs{
             display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
         }
+        
         label{
             display: block;
         }
-        input[type="text"]{
-            width: 1rem;
+        input[type="number"]{
+            width: 2rem;
+            outline: 0;
         }
     </style>
 
@@ -39,7 +44,7 @@
                     <label for="">De: <br>
                     <input type="number" name="n1" id="value1" required></label>
 
-                    <label for="">Repetições: <br>
+                    <label for="">Até: <br>
                     <input type="number" name="n2" id="value2" required></label>
                 </div>
                 <button type="submit" id="enviar">Enviar</button>
