@@ -117,10 +117,9 @@
 
             for (let i = 1; i <= n2; i++) {
                 
-                p.innerText = `${n1} x ${i} = ${n1 * i}`
-                console.log(`${n1} x ${i} = ${n1 * i}`)
+                p.innerHTML = `${n1} x ${i} = ${n1 * i}`
 
-                content.innerHTML += p
+                content.appendChild(p)
             }
 
             form.reset()
