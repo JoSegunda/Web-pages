@@ -88,14 +88,18 @@
     </section>
 
     <script>
-        const value1 = document.getElementById('value1')
-        const value2 = document.getElementById('value2')
+        const value1 = document.getElementById('value1').value
+        const value2 = document.getElementById('value2').value
         const enviar = document.getElementById('enviar')
-        
+        const number = document.getElementById('number')
 
         enviar.addEventListener('click', (e) => {
             e.preventDefault()
 
+            if(value1 && value2){
+                console.log("there is something")
+            }
+            number.textContent = value1
             
         })
     </script>
