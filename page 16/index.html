@@ -88,11 +88,16 @@
     </section>
 
     <script>
-        const value1 = document.querySelector('#value1').value
-        const value2 = document.querySelector('#value2').value
-        const enviar = document.querySelector('#enviar')
+        const value1 = document.getElementById('value1')
+        const value2 = document.getElementById('value2')
+        const enviar = document.getElementById('enviar')
+        
 
-        enviar
+        enviar.addEventListener('click', (e) => {
+            e.preventDefault()
+
+            
+        })
     </script>
 </body>
 </html>
