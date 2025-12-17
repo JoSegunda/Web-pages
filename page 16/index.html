@@ -102,6 +102,8 @@
 
         enviar.addEventListener('click', (e) => {
             e.preventDefault()
+            
+            content = ""
 
             let n1 = value1.value
             let n2 = value2.value
@@ -115,7 +117,7 @@
                 p.innerText = `${n1} x ${i} = ${n1 * i}`
                 console.log(`${n1} x ${i} = ${n1 * i}`)
 
-                content.append(p)
+                content.innerHTML += p
             }
 
             form.reset()
