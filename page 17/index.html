@@ -87,6 +87,7 @@
         const qrBtn = document.querySelector('#generateBtn')
 
         const textToQr = document.querySelector('#text-url')
+        const qrCode = document.querySelector('#qr-code')
 
         qrBtn.addEventListener('click', (e) => {
             e.preventDefault()
@@ -100,6 +101,9 @@
                 return
             }
             qrBtn.innerText = "gerando código...."
+
+            qrCode.style.backgroundImage = ` https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${QrUrl}`
+            qrCode.style.display = 'block'
         }
     </script>
 </body>
