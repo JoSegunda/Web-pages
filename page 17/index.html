@@ -74,12 +74,17 @@
         <form action="">
             <input type="text" name="text-url" id="text-url" placeholder="Digite um URL...">
             
-            <button type="submit">Gerar QR Code</button>
+            <button type="submit" id="generateBtn">Gerar QR Code</button>
         </form>
 
         <div id="content">
             <div id="qr-code"> </div>
         </div>
     </section>
+
+    <script>
+        const content = document.querySelector('#content')
+        const qrBtn = document.querySelector('#generateBtn')
+    </script>
 </body>
 </html>
