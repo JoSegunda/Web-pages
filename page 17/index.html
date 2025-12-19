@@ -108,7 +108,13 @@
             qrCode.style.backgroundImage = ` url('https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${QrUrl}')`
             qrCode.style.display = 'block'
 
-            qrCode.classList.replace("inactive", "active")
+            
+            qrCode.addEventListener('load', () => {
+                console.log("It gets")
+                qrCode.classList.replace("inactive", "active")
+            })
+
+            qrBtn.innerText = "Código Gerado"
         }
     </script>
 </body>
