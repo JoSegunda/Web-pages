@@ -85,6 +85,22 @@
     <script>
         const content = document.querySelector('#content')
         const qrBtn = document.querySelector('#generateBtn')
+
+        const textToQr = document.querySelector('#text-url')
+
+        qrBtn.addEventListener('click', (e) => {
+            e.preventDefault()
+
+            generateQr()
+        })
+
+        function generateQr(){
+            const QrUrl = textToQr.value
+            if (!QrUrl) {
+                return
+            }
+            qrBtn.innerText = "gerando código...."
+        }
     </script>
 </body>
 </html>
